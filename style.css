@@ -20,3 +20,10 @@ body {
     margin-top: 50px;
     font-size: 10px;
 }
+
+.transparente {
+    background-color: wheat;
+    position: absolute;
+    display: flex;
+
+}
