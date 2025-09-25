@@ -1,0 +1,22 @@
+body {
+    margin: 0 0;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: antiquewhite;
+    display: flex;
+    padding: 4%;
+}
+
+.hero {
+    position: absolute;
+    margin-left: 85vh;
+    margin-top: 50px;
+    font-size: 10px;
+}
