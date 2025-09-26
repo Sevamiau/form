@@ -2,7 +2,7 @@
 body {
     margin: 0 auto;
     background-color: rgb(233, 233, 233) ;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -28,17 +28,21 @@ body {
 }
 
 .form-container {
+    margin-top: 10vh;
     background-color: white;
     display: flex;
     padding-bottom: 4%;
     box-shadow:  5px 5px 5px rgb(148, 146, 146);
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .hero {
     display: flex;
-    font-size: 10px;
+    font-size: 15px;
     margin: 5vh;
     text-align: left;
+    margin-top: 18vh;
 }
 
 form {
@@ -90,7 +94,7 @@ input {
 
 .transparente p {
     color: rgb(196, 193, 193);
-    font-size: 35px;
+    font-size: 60px;
     align-self: center;
     margin-left: 10px;
 }
@@ -99,7 +103,7 @@ input {
 .form2 h1 {
     font-size: 24px;
 }
-
+  
 .form2 h1 {
     color: white;
 }
