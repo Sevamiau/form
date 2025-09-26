@@ -1,6 +1,8 @@
 
 body {
     margin: 0 auto;
+    background-color: rgb(233, 233, 233) ;
+
 }
 
 .container {
@@ -21,7 +23,8 @@ body {
 
 #planta {
     width: auto;
-    height: 100vh;
+    height: 120vh;
+    width: 33.33vw;
 }
 
 .form-container {
@@ -62,18 +65,41 @@ form {
 
 .sign-up p {
     font-size: 12px;
+    padding-top: 20px;
 }
 
 .transparente {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(19, 18, 18, 0.5);
     display: flex;    
     justify-content: center;
     width: 33.33vw;
     margin-top: 10%;
-    padding: 7px;
+    /* padding-bottom: 11px; */
+    height: 12vh;
 }
 
 input {
     margin-bottom: 10px;
+}
+
+#odin-img {
+    height: 8vh;
+    margin: 2vh;
+}
+
+.transparente p {
+    color: rgb(196, 193, 193);
+    font-size: 35px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.form1 h1, 
+.form2 h1 {
+    font-size: 24px;
+}
+
+.form2 h1 {
+    color: white;
 }
